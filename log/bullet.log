@@ -1,0 +1,106 @@
+2019-02-15 16:39:10[WARN] user: lucky
+POST /api/v1/users/reset_password.json
+USE eager loading detected
+  NotificationSettingUserNotificationSetting => [:notification_setting]
+  Add to your finder: :includes => [:notification_setting]
+Call stack
+  /Volumes/WORK/Dev/David/go-backend/app/serializers/users/notification_settings/settings/overview_serializer.rb:8:in `notification_setting'
+  /Volumes/WORK/Dev/David/go-backend/app/models/auto_expire_cache.rb:28:in `[]='
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:15:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:520:in `block in cached'
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:18:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:519:in `cached'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:554:in `block in update_caches'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:553:in `each'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:553:in `update_caches'
+  /Volumes/WORK/Dev/David/go-backend/app/controllers/api/v1/users/users_controller.rb:87:in `reset_password'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `<top (required)>'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+2019-02-20 11:32:50[WARN] user: lucky
+GET /api/v1/users/me
+USE eager loading detected
+  NotificationSettingUserNotificationSetting => [:notification_setting]
+  Add to your finder: :includes => [:notification_setting]
+Call stack
+  /Volumes/WORK/Dev/David/go-backend/app/serializers/users/notification_settings/settings/overview_serializer.rb:8:in `notification_setting'
+  /Volumes/WORK/Dev/David/go-backend/app/models/auto_expire_cache.rb:28:in `[]='
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:15:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:520:in `block in cached'
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:18:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:519:in `cached'
+  /Volumes/WORK/Dev/David/go-backend/app/controllers/api/v1/users/users_controller.rb:75:in `show'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `<top (required)>'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+2019-02-20 11:50:19[WARN] user: lucky
+PUT /api/v1/users/me
+USE eager loading detected
+  NotificationSettingUserNotificationSetting => [:notification_setting]
+  Add to your finder: :includes => [:notification_setting]
+Call stack
+  /Volumes/WORK/Dev/David/go-backend/app/serializers/users/notification_settings/settings/overview_serializer.rb:8:in `notification_setting'
+  /Volumes/WORK/Dev/David/go-backend/app/models/auto_expire_cache.rb:28:in `[]='
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:15:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:520:in `block in cached'
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:18:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:519:in `cached'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:554:in `block in update_caches'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:553:in `each'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:553:in `update_caches'
+  /Volumes/WORK/Dev/David/go-backend/app/controllers/api/v1/users/users_controller.rb:49:in `update'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `<top (required)>'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+2019-02-21 16:50:26[WARN] user: lucky
+GET /api/v1/users/me
+USE eager loading detected
+  NotificationSettingUserNotificationSetting => [:notification_setting]
+  Add to your finder: :includes => [:notification_setting]
+Call stack
+  /Volumes/WORK/Dev/David/go-backend/app/serializers/users/notification_settings/settings/overview_serializer.rb:8:in `notification_setting'
+  /Volumes/WORK/Dev/David/go-backend/app/models/auto_expire_cache.rb:28:in `[]='
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:15:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:520:in `block in cached'
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:18:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:519:in `cached'
+  /Volumes/WORK/Dev/David/go-backend/app/controllers/api/v1/users/users_controller.rb:75:in `show'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `<top (required)>'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+2019-02-21 16:52:36[WARN] user: lucky
+GET /api/v1/users/me
+USE eager loading detected
+  NotificationSettingUserNotificationSetting => [:notification_setting]
+  Add to your finder: :includes => [:notification_setting]
+Call stack
+  /Volumes/WORK/Dev/David/go-backend/app/serializers/users/notification_settings/settings/overview_serializer.rb:8:in `notification_setting'
+  /Volumes/WORK/Dev/David/go-backend/app/models/auto_expire_cache.rb:28:in `[]='
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:15:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:520:in `block in cached'
+  /Volumes/WORK/Dev/David/go-backend/app/helpers/api/cache_helper.rb:18:in `cached_object'
+  /Volumes/WORK/Dev/David/go-backend/app/models/user.rb:519:in `cached'
+  /Volumes/WORK/Dev/David/go-backend/app/controllers/api/v1/users/users_controller.rb:75:in `show'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/rails:9:in `<top (required)>'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `require'
+  /Volumes/WORK/Dev/David/go-backend/bin/spring:15:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
